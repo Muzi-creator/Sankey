@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+                <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
+
+    
+
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: auto;
+            background-color: #f4f4f4;
+        }
+        #main {
+            width: 300vw;
+            height: 300vh;
+            padding: 5vh 5vw;
+            box-sizing: border-box;
+        }
+        h1 {
+            position: fixed;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+    </style>
+    </head>
+<body >
+    <div id="2453f077664a4f5da87fdd9fb842d64a" class="chart-container" style="width:900px; height:500px; "></div>
+    <script>
+        var chart_2453f077664a4f5da87fdd9fb842d64a = echarts.init(
+            document.getElementById('2453f077664a4f5da87fdd9fb842d64a'), 'white', {renderer: 'canvas'});
+        var option_2453f077664a4f5da87fdd9fb842d64a = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "color": [
+        "#5470c6",
+        "#91cc75",
+        "#fac858",
+        "#ee6666",
+        "#73c0de",
+        "#3ba272",
+        "#fc8452",
+        "#9a60b4",
+        "#ea7ccc"
+    ],
+    "series": [
+        {
+            "type": "sankey",
+            "data": [
+                {
+                    "name": "\u524d\u53f8_\u4e92\u8054\u7f51\u5927\u5382"
+                },
+                {
+                    "name": "\u524d\u53f8_\u4f20\u7edf\u884c\u4e1a"
+                },
+                {
+                    "name": "\u524d\u53f8_\u521b\u4e1a\u516c\u53f8"
+                },
+                {
+                    "name": "\u524d\u53f8_\u65e0\u5339\u914d\u7c7b\u522b"
+                },
+                {
+                    "name": "UG-\u589e\u957f"
+                },
+                {
+                    "name": "\u4ea7\u54c1"
+                },
+                {
+                    "name": "\u5176\u4ed6"
+                },
+                {
+                    "name": "\u5b89\u5168"
+                },
+                {
+                    "name": "\u5e02\u573a\uff08MKT&PR\uff09"
+                },
+                {
+                    "name": "\u6218\u7565"
+                },
+                {
+                    "name": "\u6280\u672f"
+                },
+                {
+                    "name": "\u6570\u636e\u79d1\u5b66\uff08DA&DS\uff09"
+                },
+                {
+                    "name": "\u6cbb\u7406&\u5408\u89c4&Policy"
+                },
+                {
+                    "name": "\u804c\u80fd-\u6cd5\u52a1"
+                },
+                {
+                    "name": "\u8bbe\u8ba1"
+                },
+                {
+                    "name": "\u8fd0\u8425"
+                },
+                {
+                    "name": "\u9500\u552e\uff08BD&Partnership\uff09"
+                },
+                {
+                    "name": "\u5546\u4e1a\u5206\u6790&\u7ecf\u8425\u5206\u6790"
+                },
+                {
+                    "name": "\u804c\u80fd-\u8d22\u52a1"
+                },
+                {
+                    "name": "\u53bb\u5411_\u4e92\u8054\u7f51\u5927\u5382"
+                },
+                {
+                    "name": "\u53bb\u5411_\u521b\u4e1a\u516c\u53f8"
+                },
+                {
+                    "name": "\u53bb\u5411_\u65e0\u5339\u914d\u7c7b\u522b"
+                },
+                {
+                    "name": "\u53bb\u5411_\u4f20\u7edf\u884c\u4e1a"
+                }
+            ],
+            "links": [
+                {
+                    "source": "\u524d\u53f8_\u4e92\u8054\u7f51\u5927\u5382",
+                    "target": "UG-\u589e\u957f",
+                    "value": 4
+                },
+                {
+                    "source": "\u524d\u53f8_\u4e92\u8054\u7f51\u5927\u5382",
+                    "target": "\u4ea7\u54c1",
+                    "value": 15
+                },
+                {
+                    "source": "\u524d\u53f8_\u4e92\u8054\u7f51\u5927\u5382",
+                    "target": "\u5176\u4ed6",
+                    "value": 30
+                },
+                {
+                    "source": "\u524d\u53f8_\u4e92\u8054\u7f51\u5927\u5382",
+                    "target": "\u5b89\u5168",
+                    "value": 3
+                },
+                {
+                    "source": "\u524d\u53f8_\u4e92\u8054\u7f51\u5927\u5382",
+                    "target": "\u5e02\u573a\uff08MKT&PR\uff09",
+                    "value": 14
+                },
+                {
+                    "source": "\u524d\u53f8_\u4e92\u8054\u7f51\u5927\u5382",
+                    "target": "\u6218\u7565",
+                    "value": 2
+                },
+                {
+                    "source": "\u524d\u53f8_\u4e92\u8054\u7f51\u5927\u5382",
+                    "target": "\u6280\u672f",
+                    "value": 45
+                },
+                {
+                    "source": "\u524d\u53f8_\u4e92\u8054\u7f51\u5927\u5382",
+                    "target": "\u6570\u636e\u79d1\u5b66\uff08DA&DS\uff09",
+                    "value": 5
+                },
+                {
+                    "source": "\u524d\u53f8_\u4e92\u8054\u7f51\u5927\u5382",
+                    "target": "\u6cbb\u7406&\u5408\u89c4&Policy",
+                    "value": 1
+                },
+                {
+                    "source": "\u524d\u53f8_\u4e92\u8054\u7f51\u5927\u5382",
+                    "target": "\u804c\u80fd-\u6cd5\u52a1",
+                    "value": 2
+                },
+                {
+                    "source": "\u524d\u53f8_\u4e92\u8054\u7f51\u5927\u5382",
+                    "target": "\u8bbe\u8ba1",
+                    "value": 2
+                },
+                {
+                    "source": "\u524d\u53f8_\u4e92\u8054\u7f51\u5927\u5382",
+                    "target": "\u8fd0\u8425",
+                    "value": 17
+                },
+                {
+                    "source": "\u524d\u53f8_\u4e92\u8054\u7f51\u5927\u5382",
+                    "target": "\u9500\u552e\uff08BD&Partnership\uff09",
+                    "value": 6
+                },
+                {
+                    "source": "\u524d\u53f8_\u4f20\u7edf\u884c\u4e1a",
+                    "target": "\u4ea7\u54c1",
+                    "value": 6
+                },
+                {
+                    "source": "\u524d\u53f8_\u4f20\u7edf\u884c\u4e1a",
+                    "target": "\u5176\u4ed6",
+                    "value": 14
+                },
+                {
+                    "source": "\u524d\u53f8_\u4f20\u7edf\u884c\u4e1a",
+                    "target": "\u5546\u4e1a\u5206\u6790&\u7ecf\u8425\u5206\u6790",
+                    "value": 1
+                },
+                {
+                    "source": "\u524d\u53f8_\u4f20\u7edf\u884c\u4e1a",
+                    "target": "\u5b89\u5168",
+                    "value": 2
+                },
+                {
+                    "source": "\u524d\u53f8_\u4f20\u7edf\u884c\u4e1a",
+                    "target": "\u5e02\u573a\uff08MKT&PR\uff09",
+                    "value": 6
+                },
+                {
+                    "source": "\u524d\u53f8_\u4f20\u7edf\u884c\u4e1a",
+                    "target": "\u6218\u7565",
+                    "value": 4
+                },
+                {
+                    "source": "\u524d\u53f8_\u4f20\u7edf\u884c\u4e1a",
+                    "target": "\u6280\u672f",
+                    "value": 21
+                },
+                {
+                    "source": "\u524d\u53f8_\u4f20\u7edf\u884c\u4e1a",
+                    "target": "\u6570\u636e\u79d1\u5b66\uff08DA&DS\uff09",
+                    "value": 3
+                },
+                {
+                    "source": "\u524d\u53f8_\u4f20\u7edf\u884c\u4e1a",
+                    "target": "\u804c\u80fd-\u8d22\u52a1",
+                    "value": 3
+                },
+                {
+                    "source": "\u524d\u53f8_\u4f20\u7edf\u884c\u4e1a",
+                    "target": "\u8fd0\u8425",
+                    "value": 2
+                },
+                {
+                    "source": "\u524d\u53f8_\u4f20\u7edf\u884c\u4e1a",
+                    "target": "\u9500\u552e\uff08BD&Partnership\uff09",
+                    "value": 5
+                },
+                {
+                    "source": "\u524d\u53f8_\u521b\u4e1a\u516c\u53f8",
+                    "target": "UG-\u589e\u957f",
+                    "value": 1
+                },
+                {
+                    "source": "\u524d\u53f8_\u521b\u4e1a\u516c\u53f8",
+                    "target": "\u4ea7\u54c1",
+                    "value": 18
+                },
+                {
+                    "source": "\u524d\u53f8_\u521b\u4e1a\u516c\u53f8",
+                    "target": "\u5176\u4ed6",
+                    "value": 37
+                },
+                {
+                    "source": "\u524d\u53f8_\u521b\u4e1a\u516c\u53f8",
+                    "target": "\u5e02\u573a\uff08MKT&PR\uff09",
+                    "value": 20
+                },
+                {
+                    "source": "\u524d\u53f8_\u521b\u4e1a\u516c\u53f8",
+                    "target": "\u6218\u7565",
+                    "value": 3
+                },
+                {
+                    "source": "\u524d\u53f8_\u521b\u4e1a\u516c\u53f8",
+                    "target": "\u6280\u672f",
+                    "value": 39
+                },
+                {
+                    "source": "\u524d\u53f8_\u521b\u4e1a\u516c\u53f8",
+                    "target": "\u6570\u636e\u79d1\u5b66\uff08DA&DS\uff09",
+                    "value": 9
+                },
+                {
+                    "source": "\u524d\u53f8_\u521b\u4e1a\u516c\u53f8",
+                    "target": "\u804c\u80fd-\u6cd5\u52a1",
+                    "value": 1
+                },
+                {
+                    "source": "\u524d\u53f8_\u521b\u4e1a\u516c\u53f8",
+                    "target": "\u8bbe\u8ba1",
+                    "value": 6
+                },
+                {
+                    "source": "\u524d\u53f8_\u521b\u4e1a\u516c\u53f8",
+                    "target": "\u8fd0\u8425",
+                    "value": 21
+                },
+                {
+                    "source": "\u524d\u53f8_\u521b\u4e1a\u516c\u53f8",
+                    "target": "\u9500\u552e\uff08BD&Partnership\uff09",
+                    "value": 7
+                },
+                {
+                    "source": "\u524d\u53f8_\u65e0\u5339\u914d\u7c7b\u522b",
+                    "target": "UG-\u589e\u957f",
+                    "value": 1
+                },
+                {
+                    "source": "\u524d\u53f8_\u65e0\u5339\u914d\u7c7b\u522b",
+                    "target": "\u4ea7\u54c1",
+                    "value": 18
+                },
+                {
+                    "source": "\u524d\u53f8_\u65e0\u5339\u914d\u7c7b\u522b",
+                    "target": "\u5176\u4ed6",
+                    "value": 43
+                },
+                {
+                    "source": "\u524d\u53f8_\u65e0\u5339\u914d\u7c7b\u522b",
+                    "target": "\u5546\u4e1a\u5206\u6790&\u7ecf\u8425\u5206\u6790",
+                    "value": 1
+                },
+                {
+                    "source": "\u524d\u53f8_\u65e0\u5339\u914d\u7c7b\u522b",
+                    "target": "\u5b89\u5168",
+                    "value": 4
+                },
+                {
+                    "source": "\u524d\u53f8_\u65e0\u5339\u914d\u7c7b\u522b",
+                    "target": "\u5e02\u573a\uff08MKT&PR\uff09",
+                    "value": 13
+                },
+                {
+                    "source": "\u524d\u53f8_\u65e0\u5339\u914d\u7c7b\u522b",
+                    "target": "\u6218\u7565",
+                    "value": 5
+                },
+                {
+                    "source": "\u524d\u53f8_\u65e0\u5339\u914d\u7c7b\u522b",
+                    "target": "\u6280\u672f",
+                    "value": 35
+                },
+                {
+                    "source": "\u524d\u53f8_\u65e0\u5339\u914d\u7c7b\u522b",
+                    "target": "\u6570\u636e\u79d1\u5b66\uff08DA&DS\uff09",
+                    "value": 5
+                },
+                {
+                    "source": "\u524d\u53f8_\u65e0\u5339\u914d\u7c7b\u522b",
+                    "target": "\u6cbb\u7406&\u5408\u89c4&Policy",
+                    "value": 1
+                },
+                {
+                    "source": "\u524d\u53f8_\u65e0\u5339\u914d\u7c7b\u522b",
+                    "target": "\u804c\u80fd-\u6cd5\u52a1",
+                    "value": 2
+                },
+                {
+                    "source": "\u524d\u53f8_\u65e0\u5339\u914d\u7c7b\u522b",
+                    "target": "\u8bbe\u8ba1",
+                    "value": 6
+                },
+                {
+                    "source": "\u524d\u53f8_\u65e0\u5339\u914d\u7c7b\u522b",
+                    "target": "\u8fd0\u8425",
+                    "value": 25
+                },
+                {
+                    "source": "\u524d\u53f8_\u65e0\u5339\u914d\u7c7b\u522b",
+                    "target": "\u9500\u552e\uff08BD&Partnership\uff09",
+                    "value": 6
+                },
+                {
+                    "source": "UG-\u589e\u957f",
+                    "target": "\u53bb\u5411_\u4e92\u8054\u7f51\u5927\u5382",
+                    "value": 3
+                },
+                {
+                    "source": "UG-\u589e\u957f",
+                    "target": "\u53bb\u5411_\u521b\u4e1a\u516c\u53f8",
+                    "value": 3
+                },
+                {
+                    "source": "\u4ea7\u54c1",
+                    "target": "\u53bb\u5411_\u4e92\u8054\u7f51\u5927\u5382",
+                    "value": 37
+                },
+                {
+                    "source": "\u4ea7\u54c1",
+                    "target": "\u53bb\u5411_\u521b\u4e1a\u516c\u53f8",
+                    "value": 18
+                },
+                {
+                    "source": "\u4ea7\u54c1",
+                    "target": "\u53bb\u5411_\u65e0\u5339\u914d\u7c7b\u522b",
+                    "value": 2
+                },
+                {
+                    "source": "\u5176\u4ed6",
+                    "target": "\u53bb\u5411_\u4e92\u8054\u7f51\u5927\u5382",
+                    "value": 28
+                },
+                {
+                    "source": "\u5176\u4ed6",
+                    "target": "\u53bb\u5411_\u4f20\u7edf\u884c\u4e1a",
+                    "value": 12
+                },
+                {
+                    "source": "\u5176\u4ed6",
+                    "target": "\u53bb\u5411_\u521b\u4e1a\u516c\u53f8",
+                    "value": 55
+                },
+                {
+                    "source": "\u5176\u4ed6",
+                    "target": "\u53bb\u5411_\u65e0\u5339\u914d\u7c7b\u522b",
+                    "value": 29
+                },
+                {
+                    "source": "\u5546\u4e1a\u5206\u6790&\u7ecf\u8425\u5206\u6790",
+                    "target": "\u53bb\u5411_\u4e92\u8054\u7f51\u5927\u5382",
+                    "value": 2
+                },
+                {
+                    "source": "\u5b89\u5168",
+                    "target": "\u53bb\u5411_\u4e92\u8054\u7f51\u5927\u5382",
+                    "value": 2
+                },
+                {
+                    "source": "\u5b89\u5168",
+                    "target": "\u53bb\u5411_\u521b\u4e1a\u516c\u53f8",
+                    "value": 3
+                },
+                {
+                    "source": "\u5b89\u5168",
+                    "target": "\u53bb\u5411_\u65e0\u5339\u914d\u7c7b\u522b",
+                    "value": 4
+                },
+                {
+                    "source": "\u5e02\u573a\uff08MKT&PR\uff09",
+                    "target": "\u53bb\u5411_\u4e92\u8054\u7f51\u5927\u5382",
+                    "value": 14
+                },
+                {
+                    "source": "\u5e02\u573a\uff08MKT&PR\uff09",
+                    "target": "\u53bb\u5411_\u4f20\u7edf\u884c\u4e1a",
+                    "value": 7
+                },
+                {
+                    "source": "\u5e02\u573a\uff08MKT&PR\uff09",
+                    "target": "\u53bb\u5411_\u521b\u4e1a\u516c\u53f8",
+                    "value": 19
+                },
+                {
+                    "source": "\u5e02\u573a\uff08MKT&PR\uff09",
+                    "target": "\u53bb\u5411_\u65e0\u5339\u914d\u7c7b\u522b",
+                    "value": 13
+                },
+                {
+                    "source": "\u6218\u7565",
+                    "target": "\u53bb\u5411_\u4e92\u8054\u7f51\u5927\u5382",
+                    "value": 4
+                },
+                {
+                    "source": "\u6218\u7565",
+                    "target": "\u53bb\u5411_\u4f20\u7edf\u884c\u4e1a",
+                    "value": 3
+                },
+                {
+                    "source": "\u6218\u7565",
+                    "target": "\u53bb\u5411_\u521b\u4e1a\u516c\u53f8",
+                    "value": 5
+                },
+                {
+                    "source": "\u6218\u7565",
+                    "target": "\u53bb\u5411_\u65e0\u5339\u914d\u7c7b\u522b",
+                    "value": 2
+                },
+                {
+                    "source": "\u6280\u672f",
+                    "target": "\u53bb\u5411_\u4e92\u8054\u7f51\u5927\u5382",
+                    "value": 67
+                },
+                {
+                    "source": "\u6280\u672f",
+                    "target": "\u53bb\u5411_\u4f20\u7edf\u884c\u4e1a",
+                    "value": 9
+                },
+                {
+                    "source": "\u6280\u672f",
+                    "target": "\u53bb\u5411_\u521b\u4e1a\u516c\u53f8",
+                    "value": 52
+                },
+                {
+                    "source": "\u6280\u672f",
+                    "target": "\u53bb\u5411_\u65e0\u5339\u914d\u7c7b\u522b",
+                    "value": 12
+                },
+                {
+                    "source": "\u6570\u636e\u79d1\u5b66\uff08DA&DS\uff09",
+                    "target": "\u53bb\u5411_\u4e92\u8054\u7f51\u5927\u5382",
+                    "value": 8
+                },
+                {
+                    "source": "\u6570\u636e\u79d1\u5b66\uff08DA&DS\uff09",
+                    "target": "\u53bb\u5411_\u521b\u4e1a\u516c\u53f8",
+                    "value": 12
+                },
+                {
+                    "source": "\u6570\u636e\u79d1\u5b66\uff08DA&DS\uff09",
+                    "target": "\u53bb\u5411_\u65e0\u5339\u914d\u7c7b\u522b",
+                    "value": 2
+                },
+                {
+                    "source": "\u6cbb\u7406&\u5408\u89c4&Policy",
+                    "target": "\u53bb\u5411_\u4f20\u7edf\u884c\u4e1a",
+                    "value": 1
+                },
+                {
+                    "source": "\u6cbb\u7406&\u5408\u89c4&Policy",
+                    "target": "\u53bb\u5411_\u521b\u4e1a\u516c\u53f8",
+                    "value": 1
+                },
+                {
+                    "source": "\u804c\u80fd-\u6cd5\u52a1",
+                    "target": "\u53bb\u5411_\u4e92\u8054\u7f51\u5927\u5382",
+                    "value": 3
+                },
+                {
+                    "source": "\u804c\u80fd-\u6cd5\u52a1",
+                    "target": "\u53bb\u5411_\u521b\u4e1a\u516c\u53f8",
+                    "value": 1
+                },
+                {
+                    "source": "\u804c\u80fd-\u6cd5\u52a1",
+                    "target": "\u53bb\u5411_\u65e0\u5339\u914d\u7c7b\u522b",
+                    "value": 1
+                },
+                {
+                    "source": "\u804c\u80fd-\u8d22\u52a1",
+                    "target": "\u53bb\u5411_\u4e92\u8054\u7f51\u5927\u5382",
+                    "value": 1
+                },
+                {
+                    "source": "\u804c\u80fd-\u8d22\u52a1",
+                    "target": "\u53bb\u5411_\u4f20\u7edf\u884c\u4e1a",
+                    "value": 2
+                },
+                {
+                    "source": "\u8bbe\u8ba1",
+                    "target": "\u53bb\u5411_\u4e92\u8054\u7f51\u5927\u5382",
+                    "value": 6
+                },
+                {
+                    "source": "\u8bbe\u8ba1",
+                    "target": "\u53bb\u5411_\u4f20\u7edf\u884c\u4e1a",
+                    "value": 2
+                },
+                {
+                    "source": "\u8bbe\u8ba1",
+                    "target": "\u53bb\u5411_\u521b\u4e1a\u516c\u53f8",
+                    "value": 5
+                },
+                {
+                    "source": "\u8bbe\u8ba1",
+                    "target": "\u53bb\u5411_\u65e0\u5339\u914d\u7c7b\u522b",
+                    "value": 1
+                },
+                {
+                    "source": "\u8fd0\u8425",
+                    "target": "\u53bb\u5411_\u4e92\u8054\u7f51\u5927\u5382",
+                    "value": 38
+                },
+                {
+                    "source": "\u8fd0\u8425",
+                    "target": "\u53bb\u5411_\u4f20\u7edf\u884c\u4e1a",
+                    "value": 8
+                },
+                {
+                    "source": "\u8fd0\u8425",
+                    "target": "\u53bb\u5411_\u521b\u4e1a\u516c\u53f8",
+                    "value": 18
+                },
+                {
+                    "source": "\u8fd0\u8425",
+                    "target": "\u53bb\u5411_\u65e0\u5339\u914d\u7c7b\u522b",
+                    "value": 1
+                },
+                {
+                    "source": "\u9500\u552e\uff08BD&Partnership\uff09",
+                    "target": "\u53bb\u5411_\u4e92\u8054\u7f51\u5927\u5382",
+                    "value": 7
+                },
+                {
+                    "source": "\u9500\u552e\uff08BD&Partnership\uff09",
+                    "target": "\u53bb\u5411_\u4f20\u7edf\u884c\u4e1a",
+                    "value": 5
+                },
+                {
+                    "source": "\u9500\u552e\uff08BD&Partnership\uff09",
+                    "target": "\u53bb\u5411_\u521b\u4e1a\u516c\u53f8",
+                    "value": 7
+                },
+                {
+                    "source": "\u9500\u552e\uff08BD&Partnership\uff09",
+                    "target": "\u53bb\u5411_\u65e0\u5339\u914d\u7c7b\u522b",
+                    "value": 5
+                }
+            ],
+            "left": "5%",
+            "top": "5%",
+            "right": "20%",
+            "bottom": "5%",
+            "nodeWidth": 20,
+            "nodeGap": 8,
+            "nodeAlign": "justify",
+            "orient": "horizontal",
+            "draggable": true,
+            "label": {
+                "show": true,
+                "position": "inside",
+                "margin": 8,
+                "valueAnimation": false
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 0.8,
+                "curveness": 0.5,
+                "type": "solid",
+                "color": "source"
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                ""
+            ],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    },
+    "title": [
+        {
+            "show": true,
+            "text": "\u4eba\u5458\u6d41\u5411\u56fe\uff08\u6309\u5e8f\u5217\u5206\uff09",
+            "target": "blank",
+            "subtarget": "blank",
+            "left": "center",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false
+        }
+    ],
+    "toolbox": {
+        "show": false,
+        "orient": "horizontal",
+        "itemSize": 15,
+        "itemGap": 10,
+        "left": "80%",
+        "feature": {
+            "saveAsImage": {
+                "type": "png",
+                "backgroundColor": "auto",
+                "connectedBackgroundColor": "#fff",
+                "show": true,
+                "title": "\u4fdd\u5b58\u4e3a\u56fe\u7247",
+                "pixelRatio": 1
+            },
+            "restore": {
+                "show": true,
+                "title": "\u8fd8\u539f"
+            },
+            "dataView": {
+                "show": true,
+                "title": "\u6570\u636e\u89c6\u56fe",
+                "readOnly": false,
+                "lang": [
+                    "\u6570\u636e\u89c6\u56fe",
+                    "\u5173\u95ed",
+                    "\u5237\u65b0"
+                ],
+                "backgroundColor": "#fff",
+                "textareaColor": "#fff",
+                "textareaBorderColor": "#333",
+                "textColor": "#000",
+                "buttonColor": "#c23531",
+                "buttonTextColor": "#fff"
+            },
+            "dataZoom": {
+                "show": true,
+                "title": {
+                    "zoom": "\u533a\u57df\u7f29\u653e",
+                    "back": "\u533a\u57df\u7f29\u653e\u8fd8\u539f"
+                },
+                "icon": {},
+                "filterMode": "filter"
+            },
+            "magicType": {
+                "show": true,
+                "type": [
+                    "line",
+                    "bar",
+                    "stack",
+                    "tiled"
+                ],
+                "title": {
+                    "line": "\u5207\u6362\u4e3a\u6298\u7ebf\u56fe",
+                    "bar": "\u5207\u6362\u4e3a\u67f1\u72b6\u56fe",
+                    "stack": "\u5207\u6362\u4e3a\u5806\u53e0",
+                    "tiled": "\u5207\u6362\u4e3a\u5e73\u94fa"
+                },
+                "icon": {}
+            }
+        }
+    }
+};
+        chart_2453f077664a4f5da87fdd9fb842d64a.setOption(option_2453f077664a4f5da87fdd9fb842d64a);
+    </script>
+
+    <script>
+        // 可以在这里添加更多的 JavaScript 交互代码
+    </script>
+    </body>
+</html>
